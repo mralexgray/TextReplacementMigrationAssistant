@@ -42,6 +42,385 @@
 					<dict>
 						<key>tokenizedValue</key>
 						<array>
+							<string>Enable replacements in "ALL" apps?</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Confirmation.action</string>
+				<key>ActionName</key>
+				<string>Ask for Confirmation</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<string>OK</string>
+					<key>displayWarning</key>
+					<false/>
+					<key>explanationText</key>
+					<string></string>
+					<key>negativeTitle</key>
+					<string>Cancel</string>
+					<key>questionText</key>
+					<string>Enable replacements in "ALL" apps?</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<string>OK</string>
+					<key>displayWarning</key>
+					<false/>
+					<key>explanationText</key>
+					<string></string>
+					<key>negativeTitle</key>
+					<string>Cancel</string>
+					<key>questionText</key>
+					<string>Enable replacements in "ALL" apps?</string>
+					<key>temporary items path</key>
+					<string>/var/folders/dw/gkhfs0nd7md6_cgq7sbzz39m0000gn/T/7BEA253C-9589-4B99-8341-67835832FD97/1/com.apple.Automator.Ask for Confirmation</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Ask for Confirmation</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForConfirmationAction</string>
+				<key>IgnoresInput</key>
+				<true/>
+				<key>InputUUID</key>
+				<string>390E6691-36EB-4E12-A376-360D8BA25BEC</string>
+				<key>Keywords</key>
+				<array>
+					<string>Message</string>
+					<string>Ask</string>
+					<string>Display</string>
+					<string>Prompt</string>
+					<string>Show</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>D43AAFA3-2A46-40B4-81BF-B4B54592FE1C</string>
+				<key>StartAction</key>
+				<false/>
+				<key>UUID</key>
+				<string>2B8496B5-B852-463D-AE86-CE938633FB21</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>questionText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>displayWarning</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>explanationText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>OK</string>
+						<key>name</key>
+						<string>affirmativeTitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>Cancel</string>
+						<key>name</key>
+						<string>negativeTitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>415.500000:1466.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>defaults write -g WebAutomaticTextReplacementEnabled -bool true</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>defaults write -g WebAutomaticTextReplacementEnabled -bool true</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+					<key>temporary items path</key>
+					<string>/var/folders/dw/gkhfs0nd7md6_cgq7sbzz39m0000gn/T/7BEA253C-9589-4B99-8341-67835832FD97/1/com.apple.RunShellScript</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>7FA71E56-A1E3-4CDA-B1DE-5B98AFB6E97D</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>E5B855E0-CA2D-4607-9729-51BB75E964A3</string>
+				<key>StartAction</key>
+				<false/>
+				<key>UUID</key>
+				<string>8523B078-8D10-4F74-BCB9-B5BD1EAA6BC7</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>415.500000:1269.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<dict/>
+					<key>displayWarning</key>
+					<dict/>
+					<key>explanationText</key>
+					<dict/>
+					<key>negativeTitle</key>
+					<dict/>
+					<key>questionText</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
 							<string>TextReplacementMigrationAssistant</string>
 						</array>
 					</dict>
@@ -84,6 +463,36 @@ Proceed?</string>
 					<string>Cancel</string>
 					<key>questionText</key>
 					<string>TextReplacementMigrationAssistant</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<string>OK</string>
+					<key>displayWarning</key>
+					<false/>
+					<key>explanationText</key>
+					<string>
+Warning:  Any text substitutions on the current running system will be erased, and replaced with the one's we're migrating.
+
+Don't run this while booted from the "Old" System you want to restore FROM, or you'll lose your shortcuts!  
+
+This tool moves the old info into your new, active user account.  
+
+You will be prompted for the disk location of your OLD user's "home" folder (ie. the user you want to migrate substitutions FROM).
+
+For example: 
+
+ /Volumes/oldHardDrive/Users/stevejobs
+
+Beware, if the folder shows up with a "house" icon….  That is probably NOT the one you want.  That's your "active" home folder (aka the one with nothing in it).
+
+Proceed?</string>
+					<key>negativeTitle</key>
+					<string>Cancel</string>
+					<key>questionText</key>
+					<string>TextReplacementMigrationAssistant</string>
+					<key>temporary items path</key>
+					<string>/var/folders/dw/gkhfs0nd7md6_cgq7sbzz39m0000gn/T/7BEA253C-9589-4B99-8341-67835832FD97/1/com.apple.Automator.Ask for Confirmation</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Ask for Confirmation</string>
@@ -187,12 +596,10 @@ Proceed?</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>415.500000:1184.000000</string>
+				<string>415.500000:1086.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -263,6 +670,19 @@ Proceed?</string>
 					<false/>
 					<key>promptMessage</key>
 					<string>Please select OLD users $HOME folder you want to migrate FROM.</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>defaultLocation</key>
+					<string>/Volumes</string>
+					<key>granularity</key>
+					<integer>1</integer>
+					<key>multipleSelection</key>
+					<false/>
+					<key>promptMessage</key>
+					<string>Please select OLD users $HOME folder you want to migrate FROM.</string>
+					<key>temporary items path</key>
+					<string>/var/folders/dw/gkhfs0nd7md6_cgq7sbzz39m0000gn/T/7BEA253C-9589-4B99-8341-67835832FD97/1/com.apple.Automator.AskForFinderItems</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AskForFinderItems</string>
@@ -355,12 +775,10 @@ Proceed?</string>
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>415.500000:987.000000</string>
+				<string>415.500000:889.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -417,6 +835,8 @@ Proceed?</string>
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>
+killall "System Preferences"
+
 OLDUSERFOLDERPATH=$1
 LOCALUSER=$(whoami)
 BACKUP="/Users/$LOCALUSER/oldTextReplacementsToMerge.plist"
@@ -440,6 +860,38 @@ BACKUP="/Users/$LOCALUSER/oldTextReplacementsToMerge.plist"
 					<string>/bin/bash</string>
 					<key>source</key>
 					<string></string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>
+killall "System Preferences"
+
+OLDUSERFOLDERPATH=$1
+LOCALUSER=$(whoami)
+BACKUP="/Users/$LOCALUSER/oldTextReplacementsToMerge.plist"
+
+#  This saves your OLD (ie. the one's you want to migrate) substitutions to a file to your $HOME folder.
+/usr/libexec/PlistBuddy -x -c "Print NSUserReplacementItems" "$OLDUSERFOLDERPATH/Library/Preferences/.GlobalPreferences.plist" &gt; $BACKUP
+
+#  This wipes the default substitution list on the running system and creates a new blank one.
+#  (Don't run this while booted from the System you WANT to restore FROM, or you'll lose your shortcuts!)
+
+/usr/libexec/PlistBuddy -c "Delete NSUserReplacementItems" ~/Library/Preferences/.GlobalPreferences.plist
+/usr/libexec/PlistBuddy -c "Add NSUserReplacementItems array" ~/Library/Preferences/.GlobalPreferences.plist
+
+#  This will "install" the OLD rplacements you saved earlier to your new system.
+/usr/libexec/PlistBuddy -c "Merge $BACKUP NSUserReplacementItems" ~/Library/Preferences/.GlobalPreferences.plist</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+					<key>temporary items path</key>
+					<string>/var/folders/dw/gkhfs0nd7md6_cgq7sbzz39m0000gn/T/7BEA253C-9589-4B99-8341-67835832FD97/1/com.apple.RunShellScript</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
@@ -541,12 +993,10 @@ BACKUP="/Users/$LOCALUSER/oldTextReplacementsToMerge.plist"
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>415.500000:945.000000</string>
+				<string>415.500000:847.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -614,6 +1064,23 @@ System Preferences will now open and show you all the good you've done.  Look at
 					<string>Cancel</string>
 					<key>questionText</key>
 					<string>Finished!</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<string>OK</string>
+					<key>displayWarning</key>
+					<false/>
+					<key>explanationText</key>
+					<string>
+System Preferences will now open and show you all the good you've done.  Look at you!
+</string>
+					<key>negativeTitle</key>
+					<string>Cancel</string>
+					<key>questionText</key>
+					<string>Finished!</string>
+					<key>temporary items path</key>
+					<string>/var/folders/dw/gkhfs0nd7md6_cgq7sbzz39m0000gn/T/7BEA253C-9589-4B99-8341-67835832FD97/1/com.apple.Automator.Ask for Confirmation</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Ask for Confirmation</string>
@@ -715,8 +1182,6 @@ System Preferences will now open and show you all the good you've done.  Look at
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -770,6 +1235,13 @@ System Preferences will now open and show you all the good you've done.  Look at
 					<key>source</key>
 					<string>on run {input, parameters}		tell application "System Preferences" to activate	tell application "System Events"		tell process "System Preferences"			click menu item "Language &amp; Text" of menu "View" of menu bar 1			click radio button "Text" of tab group 1 of window "Language &amp; Text"		end tell	end tell		return inputend run</string>
 				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		tell application "System Preferences" to activate	tell application "System Events"		tell process "System Preferences"			click menu item "Language &amp; Text" of menu "View" of menu bar 1			click radio button "Text" of tab group 1 of window "Language &amp; Text"		end tell	end tell		return inputend run</string>
+					<key>temporary items path</key>
+					<string>/var/folders/dw/gkhfs0nd7md6_cgq7sbzz39m0000gn/T/7BEA253C-9589-4B99-8341-67835832FD97/1/com.apple.Automator.RunScript</string>
+				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
 				<key>CFBundleVersion</key>
@@ -821,8 +1293,6 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -836,33 +1306,47 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1898C1B7-AEC1-4113-A561-52B755C93E3C</key>
-		<dict>
-			<key>from</key>
-			<string>BE815B08-DDE6-432F-9E6B-77FEC3E8D781 - BE815B08-DDE6-432F-9E6B-77FEC3E8D781</string>
-			<key>to</key>
-			<string>5A23EC46-1E2A-47DC-A052-CC45673FEBE8 - 5A23EC46-1E2A-47DC-A052-CC45673FEBE8</string>
-		</dict>
-		<key>5AB9F28B-5E12-4456-8815-9496EC16C56E</key>
+		<key>0DB78BE0-7855-4E73-920E-044F9F833185</key>
 		<dict>
 			<key>from</key>
 			<string>7D1A34B3-5176-4943-9003-05F9AC3F8079 - 7D1A34B3-5176-4943-9003-05F9AC3F8079</string>
 			<key>to</key>
 			<string>01CF7CA3-1DF4-44BD-BB92-9B6DD03CF6F6 - 01CF7CA3-1DF4-44BD-BB92-9B6DD03CF6F6</string>
 		</dict>
-		<key>ACDAF579-2916-4FE6-ADE7-CE17CBD32208</key>
+		<key>1706A9C8-CC31-46B4-AAFF-0628DE2E645C</key>
+		<dict>
+			<key>from</key>
+			<string>1F3D0BC4-94C4-4261-9090-BAE4896D4794 - 1F3D0BC4-94C4-4261-9090-BAE4896D4794</string>
+			<key>to</key>
+			<string>BE815B08-DDE6-432F-9E6B-77FEC3E8D781 - BE815B08-DDE6-432F-9E6B-77FEC3E8D781</string>
+		</dict>
+		<key>1ADCBA85-924B-4109-833B-81E99459D005</key>
 		<dict>
 			<key>from</key>
 			<string>01CF7CA3-1DF4-44BD-BB92-9B6DD03CF6F6 - 01CF7CA3-1DF4-44BD-BB92-9B6DD03CF6F6</string>
 			<key>to</key>
 			<string>1F3D0BC4-94C4-4261-9090-BAE4896D4794 - 1F3D0BC4-94C4-4261-9090-BAE4896D4794</string>
 		</dict>
-		<key>F78C0398-23FC-4B0E-859F-2D8446DCF449</key>
+		<key>2B2E987B-2198-4DDB-BA0A-6CC81B606F43</key>
 		<dict>
 			<key>from</key>
-			<string>1F3D0BC4-94C4-4261-9090-BAE4896D4794 - 1F3D0BC4-94C4-4261-9090-BAE4896D4794</string>
+			<string>2B8496B5-B852-463D-AE86-CE938633FB21 - 2B8496B5-B852-463D-AE86-CE938633FB21</string>
 			<key>to</key>
+			<string>8523B078-8D10-4F74-BCB9-B5BD1EAA6BC7 - 8523B078-8D10-4F74-BCB9-B5BD1EAA6BC7</string>
+		</dict>
+		<key>6584F790-AF06-4BA3-A891-40CBCA6F910C</key>
+		<dict>
+			<key>from</key>
+			<string>8523B078-8D10-4F74-BCB9-B5BD1EAA6BC7 - 8523B078-8D10-4F74-BCB9-B5BD1EAA6BC7</string>
+			<key>to</key>
+			<string>7D1A34B3-5176-4943-9003-05F9AC3F8079 - 7D1A34B3-5176-4943-9003-05F9AC3F8079</string>
+		</dict>
+		<key>B0F9F6E6-FD4C-42BD-810E-06E5134A063B</key>
+		<dict>
+			<key>from</key>
 			<string>BE815B08-DDE6-432F-9E6B-77FEC3E8D781 - BE815B08-DDE6-432F-9E6B-77FEC3E8D781</string>
+			<key>to</key>
+			<string>5A23EC46-1E2A-47DC-A052-CC45673FEBE8 - 5A23EC46-1E2A-47DC-A052-CC45673FEBE8</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
